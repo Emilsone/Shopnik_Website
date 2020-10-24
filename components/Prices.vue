@@ -92,16 +92,6 @@
 
 export default {
   name: 'Prices',
-  data() {
-    return {
-      listFree: ['Thing', 'Thing', 'Thing'],
-      listBasic: ['Thing', 'Thing', 'Thing', 'Thing'],
-      listPro: ['Thing', 'Thing', 'Thing', 'Thing', 'Thing']
-    }
-  },
-  components: {
-    price: Price,
-    'price-highlighted': PriceHighlighted
-  }
+  
 }
 </script>
