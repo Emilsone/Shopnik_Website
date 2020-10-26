@@ -45,6 +45,13 @@
             <a
               class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
               href="#"
+              >PRODUCTS</a
+            >
+          </li>
+           <li class="mr-3">
+            <a
+              class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
+              href="#"
               >SERVICES</a
             >
           </li>
@@ -52,21 +59,14 @@
             <a
               class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
               href="#"
-              >PROJECTS</a
+              >BLOG</a
             >
           </li>
            <li class="mr-3">
             <a
               class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
               href="#"
-              >SHOPS</a
-            >
-          </li>
-           <li class="mr-3">
-            <a
-              class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
-              href="#"
-              >NEWS</a
+              >CONTACT US</a
             >
           </li>
         </ul>

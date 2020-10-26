@@ -2,7 +2,6 @@
   <div>
     <hero />
     <features />
-    <teasers />
     <prices />
     <stylish />
     <product />
@@ -13,7 +12,6 @@
 <script>
 import Hero from '@/components/Hero'
 import Features from '@/components/Features'
-import Teasers from '@/components/Teasers'
 import Prices from '@/components/Prices'
 import Stylish from '@/components/Stylish'
 import Product from '@/components/Product'
@@ -24,7 +22,6 @@ export default {
   components: {
     hero: Hero,
     features: Features,
-    teasers: Teasers,
     prices: Prices,
     stylish: Stylish,
     product: Product,
