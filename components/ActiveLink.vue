@@ -1,5 +1,5 @@
 <template>
-  <section class="text-gray-700 body-font">
+  <!-- <section class="text-gray-700 body-font"> -->
     <div class="container px-5 py-24 mx-auto flex flex-wrap flex-col">
       <div class="flex mr-auto flex-wrap mb-20">
         <a
@@ -91,7 +91,7 @@
       </div>
      
     </div>
-  </section>
+  <!-- </section> -->
 </template>
 
 <script>

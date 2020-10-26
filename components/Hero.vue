@@ -8,7 +8,7 @@
         <div
           class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left"
         >
-          <p class="uppercase tracking-loose w-full">What business are you?</p>
+          <p class="uppercase w-full">What business are you?</p>
           <h1 class="my-4 text-5xl font-bold leading-tight">
             Shopnik. No #1 Trusted Furniture Website
           </h1>
