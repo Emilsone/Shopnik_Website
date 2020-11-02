@@ -12,22 +12,20 @@
               >
                 Get our latest product
               </h1>
-              <div class="w-full text-center">
-                <form action="#">
-                  <div class="max-w-sm mx-auto p-1 pr-0 flex items-center">
-                    <input
-                      type="email"
-                      placeholder="lawsonezekiel@example.com"
-                      class="flex-1 appearance-none rounded shadow p-3 text-grey-dark mr-2 focus:outline-none"
-                    />
-                    <button
-                      type="submit"
-                      class="appearance-none bg-black text-white text-base font-semibold tracking-wide uppercase p-3 rounded shadow hover:bg-indigo-light"
-                    >
-                      Get started
-                    </button>
-                  </div>
-                </form>
+              <div
+                class="flex lg:w-2/3 w-full sm:flex-row flex-col mx-auto px-8 sm:px-0"
+              >
+               
+                <input
+                  class="w-1/2 bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2 mr-4 mb-4 sm:mb-0"
+                  placeholder="Email"
+                  type="email"
+                />
+                <button
+                  class="text-white bg-black border-0 py-2 px-8 focus:outline-none hover:bg-black rounded text-lg"
+                >
+                  Get
+                </button>
               </div>
             </div>
           </div>
