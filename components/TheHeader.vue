@@ -45,7 +45,7 @@
             <a
               class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
               href="#"
-              >PRODUCTS</a
+              ><nuxt-link to="/products">PRODUCTS</nuxt-link></a
             >
           </li>
            <li class="mr-3">

@@ -26,7 +26,7 @@ export default {
       if (this.isStickable) {
         classList = this.isSticky ? 'text-gray-800' : 'text-black'
       } else {
-        classList = 'text-orange-600'
+        classList = 'text-black'
       }
       return classList
     }
