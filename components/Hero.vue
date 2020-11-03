@@ -8,7 +8,7 @@
         <div
           class="flex flex-col w-full md:w-2/5 justify-center items-start text-center md:text-left"
         >
-          <p class="uppercase w-full">What business are you?</p>
+          <p class="uppercase w-full">Looking for Good furnitures?</p>
           <h1 class="my-4 text-5xl font-bold leading-tight">
             Shopnik. No #1 Trusted Furniture Website
           </h1>
@@ -16,7 +16,7 @@
             Coming soon to your door with a huge discount
           </p>
 
-          <a href="#" class="text-gray-600">View Now</a>
+          <a href="#" class=" bg-black p-4 text-white">Shop Now</a>
 
           <p class="pt-24">Back | Next</p>
         </div>
