@@ -31,14 +31,14 @@
             <a
               class="inline-block py-2 px-4 text-black font-bold no-underline"
               href="#"
-              >HOME</a
+              ><nuxt-link to="/">HOME</nuxt-link></a
             >
           </li>
           <li class="mr-3">
             <a
               class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
               href="#"
-              >FEATURES</a
+              ><nuxt-link to="/products">FEATURES</nuxt-link></a
             >
           </li>
           <li class="mr-3">
@@ -52,7 +52,7 @@
             <a
               class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
               href="#"
-              >SERVICES</a
+              ><nuxt-link to="/services">SERVICES</nuxt-link></a
             >
           </li>
            <li class="mr-3">
@@ -66,7 +66,7 @@
             <a
               class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
               href="#"
-              >CONTACT US</a
+              ><nuxt-link to="/contactus">CONTACT US</nuxt-link></a
             >
           </li>
         </ul>
