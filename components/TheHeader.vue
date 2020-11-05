@@ -48,21 +48,21 @@
               ><nuxt-link to="/products">PRODUCTS</nuxt-link></a
             >
           </li>
-           <li class="mr-3">
+          <li class="mr-3">
             <a
               class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
               href="#"
               ><nuxt-link to="/services">SERVICES</nuxt-link></a
             >
           </li>
-           <li class="mr-3">
+          <li class="mr-3">
             <a
               class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
               href="#"
               >BLOG</a
             >
           </li>
-           <li class="mr-3">
+          <li class="mr-3">
             <a
               class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4"
               href="#"
@@ -72,13 +72,12 @@
         </ul>
 
         <ul class="list-reset lg:flex justify-end  items-center">
-            <a
-              class="inline-block py-2 px-4 text-black font-bold no-underline"
-              href="#"
-              >HOME</a
-            >
+          <a
+            class="inline-block py-2 px-4 text-black font-bold no-underline"
+            href="#"
+            >HOME</a
+          >
         </ul>
-        
       </div>
     </div>
     <hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
