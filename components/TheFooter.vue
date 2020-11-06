@@ -106,16 +106,20 @@
         </div>
       </div>
     </div>
+    <div class="bg-gray-200">
+      <footerpayment />
+    </div>
   </footer>
 </template>
 
 <script>
 import Logo from '@/components/Logo'
-
+import FooterPayment from '@/components/FooterPayment'
 export default {
   name: 'TheFooter',
   components: {
-    logo: Logo
+     Logo,
+    FooterPayment
   }
 }
 </script>
