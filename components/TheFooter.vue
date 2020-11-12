@@ -1,10 +1,10 @@
 <template>
-  <footer class="bg-white">
+  <footer class="footer___bg text-white">
     <div class="container mx-auto px-8">
       <div class="w-full flex flex-col md:flex-row py-6">
         <div class="flex-1 mb-6">
           <logo />
-          <p class="text-sm">
+          <p class="text-sm px-5">
             Welcome to Organik. Our products are freshly harvested, washed ready
             for box and finally delivered from our family farm right to your
             doorstep.
@@ -12,33 +12,33 @@
         </div>
 
         <div class="flex-1">
-          <p class="uppercase text-gray-500 md:mb-6">INFORMATION</p>
+          <p class="uppercase md:mb-6">INFORMATION</p>
           <ul class="list-reset mb-6">
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
                 href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
+                class="no-underline hover:underline  hover:text-orange-500"
                 >New Products</a
               >
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
                 href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
+                class="no-underline hover:underline  hover:text-orange-500"
                 >Top Sellers</a
               >
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
                 href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
+                class="no-underline hover:underline  hover:text-orange-500"
                 >Our Blog</a
               >
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
                 href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
+                class="no-underline hover:underline  hover:text-orange-500"
                 >About Our Shop</a
               >
             </li>
@@ -50,28 +50,28 @@
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
                 href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
+                class="no-underline hover:underline  hover:text-orange-500"
                 >FAQ</a
               >
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
                 href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
+                class="no-underline hover:underline  hover:text-orange-500"
                 >About Us</a
               >
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
                 href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
+                class="no-underline hover:underline  hover:text-orange-500"
                 >Help</a
               >
             </li>
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
                 href="#"
-                class="no-underline hover:underline text-gray-800 hover:text-orange-500"
+                class="no-underline hover:underline  hover:text-orange-500"
                 >Secure Shopping</a
               >
             </li>
@@ -84,7 +84,7 @@
             class="flex xl:flex-no-wrap md:flex-no-wrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start"
           >
             <div class="relative w-40 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2">
-              <label for="footer-field" class="leading-7 text-sm text-gray-600"
+              <label for="footer-field" class="leading-7 text-sm"
                 >Enter your email address for our mailing list to keep yourself
                 updated.</label
               >
@@ -92,7 +92,7 @@
                 type="text"
                 id="footer-field"
                 name="footer-field"
-                class="w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                class="w-full bg-gray-100 border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
               />
             </div>
             <button
@@ -104,7 +104,7 @@
         </div>
       </div>
     </div>
-    <div class="bg-gray-200">
+    <div class="bg-black">
       <footerpayment />
     </div>
   </footer>
@@ -121,3 +121,10 @@ export default {
   }
 }
 </script>
+<style>
+.footer___bg{
+ background-color: rgb(0, 0, 0);
+ color: rgb(171, 171, 171);
+}
+</style>
+
