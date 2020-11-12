@@ -1,9 +1,5 @@
 <template>
-  <section class="text-gray-700 body-font">
-    <div class="container px-5 py-24 mx-auto">
-      <TabIndex @tabchange="changeTab($event)" />
-      <div class="product____container" v-show="tabActiveIndex == 0">
-        <div class="flex flex-wrap -m-4">
+	<div class="flex flex-wrap -m-4">
           <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
             <a class="block relative h-48  overflow-hidden">
               <img
@@ -149,47 +145,10 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="furniture-container " v-show="tabActiveIndex == 1">
-        <Furniture />
-      </div>
-      <div class="lighting-container " v-show="tabActiveIndex == 2">
-        <Lighting />
-      </div>
-      <div class="sofa-container " v-show="tabActiveIndex == 3">
-        <Sofas />
-      </div>
-      <div class="loungechair-container " v-show="tabActiveIndex == 4">
-        <LoungeChairs />
-      </div>
-    </div>
-  </section>
 </template>
-
 <script>
-import TabIndex from '@/components/TabIndex'
-import Furniture from '@/components/Furniture'
-import Lighting from '@/components/Lighting'
-import Sofas from '@/components/Sofas'
-import LoungeChairs from '@/components/LoungeChairs'
 export default {
-  name: 'Prices',
-  components: {
-    TabIndex,
-    Furniture,
-    Lighting,
-    Sofas,
-    LoungeChairs,
-  },
-  data() {
-    return {
-      tabActiveIndex: 0
-    }
-  },
-  methods: {
-    changeTab(val) {
-      this.tabActiveIndex = val
-    }
-  }
+	
 }
 </script>
+

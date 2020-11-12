@@ -79,11 +79,7 @@
         </div>
 
         <div class="flex-1 md:w-1/2 w-full px-4">
-          <h2
-            class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3"
-          >
-            SUBSCRIBE
-          </h2>
+           <p class="uppercase text-gray-500 md:mb-6">INFORMATION</p>
           <div
             class="flex xl:flex-no-wrap md:flex-no-wrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start"
           >
