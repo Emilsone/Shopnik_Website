@@ -8,6 +8,9 @@
           HOW WE WORK
         </h1>
       </div>
+      <div>
+        
+      </div>
       <div class="flex flex-wrap -m-4 text-center">
         <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
           <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
@@ -18,6 +21,8 @@
             <p class="leading-relaxed">Call us any time</p>
           </div>
         </div>
+
+        
         <div class="p-4 md:w-1/4 sm:w-1/2 w-full">
           <div class="border-2 border-gray-200 px-4 py-6 rounded-lg">
             
@@ -50,6 +55,32 @@
 
 <script>
 export default {
-  name: 'Product'
+  name: 'Delivery',
+  data() {
+    return {
+      boxes: [
+        {
+          icon: "/icon-package.svg",
+          heading: "Free Shipping Globally",
+          details: "Delivery in 4 Days"
+        },
+        {
+          icon: "/icon-cal.svg",
+          heading: "24/7 Customer Service",
+          details: "Call us any time"
+        },
+        {
+          icon: "/icon-service.svg",
+          heading: "Easy Online Returns",
+          details: "Send Within 30 Days"
+        },
+         {
+          icon: "/icon-service.svg",
+          heading: "REFUND PROCESSED",
+          details: "Return your money immediately"
+        }
+      ]
+    };
+  }
 }
 </script>

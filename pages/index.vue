@@ -4,7 +4,7 @@
     <features />
     <prices />
     <stylish />
-    <product />
+    <delivery />
     <suscribe />
   </div>
 </template>
