@@ -92,12 +92,13 @@
                 type="text"
                 id="footer-field"
                 name="footer-field"
-                class="w-full bg-gray-100 border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-6 leading-8 transition-colors duration-200 ease-in-out"
+                class="w-full bg-gray-100 border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-6  my-4 leading-8 transition-colors duration-200 ease-in-out"
               />
             </div>
             <button
-              class="lg:mt-2 xl:mt-0 flex-shrink-0 inline-flex text-white border-0 py-2 px-6 focus:outline-none  bg-green-600"
-            >Ok
+              class="lg:mt-2 xl:mt-0 flex-shrink-0 inline-flex text-white border-0 py-3 -mx-6 my-4 px-6 focus:outline-none  bg-green-600"
+            ><i class="fa fa-paper-plane" aria-hidden="true"></i>
+
             </button>
           </div>
         </div>
