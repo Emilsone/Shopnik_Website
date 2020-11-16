@@ -2,7 +2,7 @@
   <div>
     <hero />
     <features />
-    <prices />
+    <products />
     <stylish />
     <delivery />
     <suscribe />
@@ -12,7 +12,7 @@
 <script>
 import Hero from '@/components/Hero'
 import Features from '@/components/Features'
-import Prices from '@/components/Prices'
+import Products from '@/components/Products'
 import Stylish from '@/components/Stylish'
 import Delivery from '@/components/Delivery'
 import Suscribe from '@/components/Suscribe'
@@ -22,7 +22,7 @@ export default {
   components: {
     Hero,
     Features,
-    Prices,
+    Products,
     Stylish,
     Delivery,
     Suscribe

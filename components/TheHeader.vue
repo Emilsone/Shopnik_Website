@@ -73,10 +73,10 @@
 
         <ul class="list-reset lg:flex justify-end  items-center">
           <a
-            class="inline-block py-2 px-4 text-black font-bold no-underline"
+            class="inline-block py-2 px-4 text-black font-bold text-4xl no-underline"
             href="#"
-            >HOME</a
-          >
+            ><i class="fa fa-shopping-cart" aria-hidden="true"></i>
+          </a>
         </ul>
       </div>
     </div>

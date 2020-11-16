@@ -21,12 +21,18 @@ export default {
         href:"https://fonts.googleapis.com/css2?family=Karla&display=swap"
       }
     ],
-    // link: [
-    //   {
-    //     rel="preconnect",
-    //     href:"https://fonts.gstatic.com"
-    //   }
-    // ]
+     link: [
+      {
+        rel: 'stylesheet',
+        href:"https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      }
+    ],
+    link: [
+      {
+        rel: 'stylesheet',
+        href:"https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      }
+    ],
   },
   /*
    ** Customize the progress-bar color

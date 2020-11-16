@@ -173,7 +173,7 @@ import Lighting from '@/components/Lighting'
 import Sofas from '@/components/Sofas'
 import LoungeChairs from '@/components/LoungeChairs'
 export default {
-  name: 'Prices',
+  name: 'Products',
   components: {
     TabIndex,
     Furniture,

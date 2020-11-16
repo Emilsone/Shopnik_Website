@@ -80,7 +80,7 @@
 
 
 export default {
-  name: 'Features',
+  name: 'Feature',
 
 }
 </script>
