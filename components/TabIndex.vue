@@ -1,7 +1,7 @@
 <template>
   <!-- <section class="text-gray-700 body-font"> -->
   <div class="container px-5 py-24 mx-auto flex flex-wrap flex-col">
-    <div class="flex mr-auto flex-wrap mb-20">
+    <div class="flex mr-auto flex-wrap mb-20 ">
       <a
         class="tab sm:px-6 py-3 w-1/2 sm:w-auto justify-center sm:justify-start border-b-2 title-font font-medium inline-flex items-center leading-none  hover:text-gray-900 tracking-wider"
         :class="{ active: tabActiveIndex == 0 }"
@@ -38,13 +38,7 @@
         LOUNGE 
       </a>
 
-      <div class="flex ml-auto flex-wrap ">
-        <a
-          class="sm:px-6 py-3 w-1/2 sm:w-auto justify-end lg:ml-56 sm:justify-start border-b-2 title-font font-medium bg-gray-100 inline-flex items-center leading-none border-indigo-500 text-indigo-500 tracking-wider rounded-t"
-        >
-          BACK | NEXT
-        </a>
-      </div>
+    
     </div>
   </div>
   <!-- </section> -->

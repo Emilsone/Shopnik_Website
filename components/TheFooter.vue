@@ -11,8 +11,8 @@
           </p>
         </div>
 
-        <div class="flex-1">
-          <p class="uppercase md:mb-6">INFORMATION</p>
+        <div class="flex-1 px-4">
+          <p class="uppercase md:mb-6 font-bold">INFORMATION</p>
           <ul class="list-reset mb-6">
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
@@ -45,7 +45,7 @@
           </ul>
         </div>
         <div class="flex-1">
-          <p class="uppercase text-gray-500 md:mb-6">USEFUL LINKS</p>
+          <p class="uppercase text-gray-500 md:mb-6 font-bold">USEFUL LINKS</p>
           <ul class="list-reset mb-6">
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
@@ -79,7 +79,7 @@
         </div>
 
         <div class="flex-1 md:w-1/2 w-full px-4">
-           <p class="uppercase text-gray-500 md:mb-6">INFORMATION</p>
+           <p class="uppercase text-gray-500 md:mb-6 font-bold">INFORMATION</p>
           <div
             class="flex xl:flex-no-wrap md:flex-no-wrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start"
           >
@@ -92,32 +92,29 @@
                 type="text"
                 id="footer-field"
                 name="footer-field"
-                class="w-full bg-gray-100 border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+                class="w-full bg-gray-100 border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-6 leading-8 transition-colors duration-200 ease-in-out"
               />
             </div>
             <button
-              class="lg:mt-2 xl:mt-0 flex-shrink-0 inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded"
-            >
-              Button
+              class="lg:mt-2 xl:mt-0 flex-shrink-0 inline-flex text-white border-0 py-2 px-6 focus:outline-none  bg-green-600"
+            >Ok
             </button>
           </div>
         </div>
       </div>
     </div>
     <div class="bg-black">
-      <footerpayment />
     </div>
   </footer>
 </template>
 
 <script>
 import Logo from '@/components/Logo'
-import FooterPayment from '@/components/FooterPayment'
+
 export default {
   name: 'TheFooter',
   components: {
-    Logo,
-    FooterPayment
+    Logo
   }
 }
 </script>
