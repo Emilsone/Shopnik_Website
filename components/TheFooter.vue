@@ -1,17 +1,17 @@
 <template>
   <footer class="footer___bg text-white">
-    <div class="container mx-auto px-8">
+    <div class="container mx-auto px-8 ">
       <div class="w-full flex flex-col md:flex-row py-6">
         <div class="flex-1 mb-6">
-          <logo />
-          <p class="text-sm px-5">
+          <LogoFooter />
+          <p class="text-sm leading-7 px-5">
             Welcome to Organik. Our products are freshly harvested, washed ready
             for box and finally delivered from our family farm right to your
             doorstep.
           </p>
         </div>
 
-        <div class="flex-1 px-4">
+        <div class="flex-1 px-4 py-6">
           <p class="uppercase md:mb-6 font-bold">INFORMATION</p>
           <ul class="list-reset mb-6">
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
@@ -44,7 +44,7 @@
             </li>
           </ul>
         </div>
-        <div class="flex-1">
+        <div class="flex-1 px-4 py-6">
           <p class="uppercase text-gray-500 md:mb-6 font-bold">USEFUL LINKS</p>
           <ul class="list-reset mb-6">
             <li class="mt-2 inline-block mr-2 md:block md:mr-0">
@@ -78,10 +78,10 @@
           </ul>
         </div>
 
-        <div class="flex-1 md:w-1/2 w-full px-4">
-           <p class="uppercase text-gray-500 md:mb-6 font-bold">INFORMATION</p>
+        <div class="flex-1 md:w-1/2 w-full px-4 py-6">
+          <p class="uppercase text-gray-500 md:mb-6 font-bold">INFORMATION</p>
           <div
-            class="flex xl:flex-no-wrap md:flex-no-wrap lg:flex-wrap flex-wrap justify-center items-end md:justify-start"
+            class="flex xl:flex-no-wrap md:flex-no-wrap lg:flex-wrap flex-wrap  items-end md:justify-start"
           >
             <div class="relative w-40 sm:w-auto xl:mr-4 lg:mr-0 sm:mr-4 mr-2">
               <label for="footer-field" class="leading-7 text-sm"
@@ -97,32 +97,31 @@
             </div>
             <button
               class="lg:mt-2 xl:mt-0 flex-shrink-0 inline-flex text-white border-0 py-3 -mx-6 my-4 px-6 focus:outline-none  bg-green-600"
-            ><i class="fa fa-paper-plane" aria-hidden="true"></i>
-
+            >
+              <i class="fa fa-paper-plane" aria-hidden="true"></i>
             </button>
           </div>
         </div>
       </div>
     </div>
-    <div class="bg-black">
-    </div>
+    <div class="bg-black"></div>
   </footer>
 </template>
 
 <script>
-import Logo from '@/components/Logo'
+// import Logo from '@/components/Logo'
+import LogoFooter from '@/components/LogoFooter'
 
 export default {
   name: 'TheFooter',
   components: {
-    Logo
+    LogoFooter
   }
 }
 </script>
 <style>
-.footer___bg{
- background-color: rgb(0, 0, 0);
- color: rgb(171, 171, 171);
+.footer___bg {
+  background-color: rgb(0, 0, 0);
+  color: rgb(171, 171, 171);
 }
 </style>
-

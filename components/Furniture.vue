@@ -5,7 +5,7 @@
         <img
           alt="ecommerce"
           class="object-cover object-center w-full h-full block"
-          src="https://dummyimage.com/420x260"
+          src="~/assets/img/green.jpg"
         />
       </a>
       <div class="mt-4">
@@ -23,7 +23,7 @@
         <img
           alt="ecommerce"
           class="object-cover object-center w-full h-full block"
-          src="https://dummyimage.com/421x261"
+          src="~/assets/img/brown-chair.jpg"
         />
       </a>
       <div class="mt-4">
@@ -41,7 +41,7 @@
         <img
           alt="ecommerce"
           class="object-cover object-center w-full h-full block"
-          src="https://dummyimage.com/422x262"
+          src="~/assets/img/yellow.jpg"
         />
       </a>
       <div class="mt-4">
@@ -59,7 +59,7 @@
         <img
           alt="ecommerce"
           class="object-cover object-center w-full h-full block"
-          src="https://dummyimage.com/423x263"
+          src="~/assets/img/brown-chair.jpg"
         />
       </a>
       <div class="mt-4">
@@ -77,7 +77,7 @@
         <img
           alt="ecommerce"
           class="object-cover object-center w-full h-full block"
-          src="https://dummyimage.com/424x264"
+          src="~/assets/img/green.jpg"
         />
       </a>
       <div class="mt-4">
@@ -95,7 +95,7 @@
         <img
           alt="ecommerce"
           class="object-cover object-center w-full h-full block"
-          src="https://dummyimage.com/425x265"
+          src="~/assets/img/brown-chair.jpg"
         />
       </a>
       <div class="mt-4">
@@ -113,7 +113,7 @@
         <img
           alt="ecommerce"
           class="object-cover object-center w-full h-full block"
-          src="https://dummyimage.com/427x267"
+          src="~/assets/img/yellow.jpg"
         />
       </a>
       <div class="mt-4">
@@ -131,7 +131,7 @@
         <img
           alt="ecommerce"
           class="object-cover object-center w-full h-full block"
-          src="https://dummyimage.com/428x268"
+          src="~/assets/img/x.jpg"
         />
       </a>
       <div class="mt-4">
